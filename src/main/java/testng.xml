@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="Test_suite.Listeners"></listener>
+    </listeners>
+
+    <test name="Test Basics 1">
+
+
+        <classes>
+
+            <class name="Test_cases.Test_case"/>
+            <class name="Test_cases.testcase2"/>
+
+
+        </classes>
+    </test>
+
+   <!-- Test -->
+
+    <!--    <test name="Test Basics 2">-->
+
+    <!--        <classes>-->
+    <!--            <class name="testcase.set1"/>-->
+    <!--            <methods>-->
+    <!--                <exclude name="tc02"/>-->
+    <!--            </methods>-->
+    <!--        </classes>-->
+
+    <!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+</suite> <!-- Suite -->
